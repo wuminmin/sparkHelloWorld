@@ -9,7 +9,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 object WordCount {
   def main(args: Array[String]) {
     if (args.length < 1) {
-      System.err.println("Usage: <file>")
+      System.err.println("spark hello world");
       System.exit(1)
     }
 
